@@ -93,6 +93,7 @@ int main()
 {
         char run;
         printf("Start? (y/n): ");
+
         scanf(" %c", &run);
         while (run == 'y' || run == 'Y') {
                 selectOperation();
